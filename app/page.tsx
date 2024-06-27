@@ -2,14 +2,14 @@
 
 import { navItems } from "@/data";
 
-import Hero from "/app/components/Hero";
-import Grid from "/app/components/Grid";
-import Footer from "/app/components/Footer";
-import Clients from "/app/components/Clients";
-import Approach from "/app/components/Approach";
-import Experience from "/app/components/Experience";
-import RecentProjects from "/app/components/RecentProjects";
-import { FloatingNav } from "/app/components/ui/FloatingNavbar";
+import Hero from "./components/Hero";
+import Grid from "./components/Grid";
+import Approach from "./components/Approach";
+import Clients from "./components/Clients";
+import Experience from "./components/Experience";
+import Footer from "./components/Footer";
+import RecentProjects from "./components/RecentProjects";
+import { FloatingNav } from "./components/ui/FloatingNavbar";
 
 const Home = () => {
   return (
